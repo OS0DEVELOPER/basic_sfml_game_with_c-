@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Asserts">
+      <UniqueIdentifier>{3112b34f-e0b1-41bf-9439-13b47e4a3277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio">
+      <UniqueIdentifier>{c769f289-3b31-4b13-b55f-5ce331ed0e6a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Asserts\logo.png">
+      <Filter>Source Files\Asserts</Filter>
+    </Image>
+    <Image Include="Asserts\playButton.png">
+      <Filter>Source Files\Asserts</Filter>
+    </Image>
+    <Image Include="Asserts\continueButton.png">
+      <Filter>Source Files\Asserts</Filter>
+    </Image>
+    <Image Include="Asserts\exitButton.png">
+      <Filter>Source Files\Asserts</Filter>
+    </Image>
+    <Image Include="Asserts\groundImage.png">
+      <Filter>Source Files\Asserts</Filter>
+    </Image>
+    <Image Include="Asserts\player_spritesheet.png">
+      <Filter>Source Files\Asserts</Filter>
+    </Image>
+    <Image Include="Asserts\bullet.png">
+      <Filter>Source Files\Asserts</Filter>
+    </Image>
+    <Image Include="Asserts\getHomehouse.png">
+      <Filter>Source Files\Asserts</Filter>
+    </Image>
+    <Image Include="Asserts\SunMonster.png">
+      <Filter>Source Files\Asserts</Filter>
+    </Image>
+    <Image Include="Asserts\gameSky.png">
+      <Filter>Source Files\Asserts</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMusic.h">
+      <Filter>Source Files\Asserts</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Audio\output.ogg">
+      <Filter>Source Files\Audio</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GetHome.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
